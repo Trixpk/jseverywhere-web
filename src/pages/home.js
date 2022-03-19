@@ -19,7 +19,7 @@ const Home = () => {
 
   // Если при загрузке произошла ошибка
   if (error) {
-    return <p>Error! {error}</p>;
+    return <p>Error!</p>;
   }
 
   return (
