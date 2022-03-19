@@ -24,6 +24,7 @@ const Home = () => {
 
   return (
     <React.Fragment>
+      <h2>Home</h2>
       <NoteFeed notes={data.noteFeed.notes} />
       {data.noteFeed.hasNextPage && (
         <Button
