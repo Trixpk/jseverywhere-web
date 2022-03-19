@@ -10,7 +10,11 @@ const GET_NOTES = gql`
         createdAt
         content
         favoriteCount
-        author
+        author {
+          username
+          id
+          avatar
+        }
       }
     }
   }
