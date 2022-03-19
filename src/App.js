@@ -43,6 +43,7 @@ client.onResetStore(() => cache.writeData({ data }));
 const App = () => {
   return (
     <ApolloProvider client={client}>
+      <h2>Test header</h2>
       <GlobalStyle />
       <Pages />
     </ApolloProvider>
